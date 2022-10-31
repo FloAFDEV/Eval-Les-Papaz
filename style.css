@@ -1,0 +1,10 @@
+@import url(https://fonts.bunny.net/css?family=nova-round:400);
+
+/* petit reset minimal de base */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
