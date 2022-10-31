@@ -10,16 +10,65 @@
 }
 
 html {
+
     box-sizing: border-box;
     font-size: 62.5%;
 }
 
-.navbar {
-    background-color: #242424;
-}
-
 body {
+
     font-family: 'nova-round', sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
+    background-image: src("../Ressources/black-gypsum-panel-with-copy-space.jpg");
+}
+
+
+
+.background {
+    background-image: url("Ressources/close-up-microphone-concert-stage-with-beautiful-lighting.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+
+
+
+
+}
+
+section img:nth-child(1) {
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+    border-bottom-left-radius: 5em;
+    border-top-right-radius: 5em;
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    ;
+}
+
+.Info h1 {
+    padding: 2rem;
+    font-size: 3em;
 }
