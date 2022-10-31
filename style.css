@@ -4,7 +4,22 @@
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.navbar {
+    background-color: #242424;
+}
+
+body {
+    font-family: 'nova-round', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
 }
