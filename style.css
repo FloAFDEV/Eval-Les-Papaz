@@ -98,3 +98,11 @@ article{
     margin-bottom: 2rem;
 }
 
+.cards > article> div> div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
