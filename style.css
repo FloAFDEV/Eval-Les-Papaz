@@ -71,9 +71,7 @@ body {
 .container img:nth-child(1) {
     width: 50%;
     height: 80%;
-    object-fit: cover;
-    border-bottom-left-radius: 5em;
-    border-top-right-radius: 5em;
+  border-radius: 30% 70% 67% 33% / 17% 24% 76% 83% ;
 }
 
 
@@ -97,5 +95,6 @@ article{
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
+
