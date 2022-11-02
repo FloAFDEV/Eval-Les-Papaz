@@ -71,7 +71,7 @@ body {
 .container img:nth-child(1) {
     width: 50%;
     height: 80%;
-  border-radius: 30% 70% 67% 33% / 17% 24% 76% 83% ;
+    border-radius: 30% 70% 67% 33% / 17% 24% 76% 83%;
 }
 
 
@@ -89,7 +89,7 @@ body {
     font-size: 3em;
 }
 
-article{
+article {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,7 +98,16 @@ article{
     margin-bottom: 2rem;
 }
 
-.cards > article> div> div{
+.cards>article>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.carousel>div>div>img {
     display: flex;
     flex-direction: column;
     justify-content: center;
