@@ -101,10 +101,10 @@ article {
 .cards>article>div>div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 2rem;
-    margin-bottom: 2rem;
+  
 }
 
 .carousel>div>div>img {
@@ -113,5 +113,5 @@ article {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    margin-bottom: 2rem;
-}
+
+    }
