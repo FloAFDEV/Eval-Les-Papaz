@@ -37,7 +37,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -79,8 +79,11 @@ div.text-white {
 }
 
 .container {
-    margin: 1rem;
-
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .section-top .container img:nth-child(1) {
@@ -104,21 +107,13 @@ div.text-white {
 }
 
 
-article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
 .cards>article>div>div {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
+    margin-bottom: 2rem
 }
 
 .carousel>div>div>img {
@@ -135,7 +130,12 @@ article {
     object-fit: cover;
 }
 
-.cards>article>div>img {
-    width: 60vh;
-    height: 30vh;
+.card-footer{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem
 }
