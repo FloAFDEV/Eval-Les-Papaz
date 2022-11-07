@@ -3,12 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
     <meta name="description" content="Groupe de musique rock et reprises amateur The Papa'z">
     <meta name="keywords" content="HTML, CSS, Evaluation, Bootstrap, Musique, Groupe, The-papaz, rock">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -17,29 +16,26 @@
 </head>
 
 <body>
-    <header>
-        <!-- Header/Navbar & Social Link -->
-        <nav class="navbar navbar-expand-sm bg-white bg-opacity-80 d-flex justify-content-between p-2">
-            <span class="navbar-icon ">
-                <p class="fs-1 text-warning mb-0">THE <span class="text-dark">PAPA'Z</span>
-                </p>
-            </span>
-            <a class="btn text-bg-primary fs-5 btn-btn rounded-pill fw-lighter" aria-current="page"
-                href="https://www.facebook.com/profile.php?id=100082852586954" title="Facebook">Suivez-nous
-                <img src="/Ressources/facebook.png" alt="logo facebook" width="24em">
-            </a>
-        </nav>
-    </header>
+    <!-- Navbar & Social Link -->
+    <nav class="navbar navbar-expand-sm bg-white bg-opacity-80 d-flex justify-content-between p-2">
+        <span class="navbar-icon ">
+            <p class="fs-1 text-warning mb-0">THE <span class="text-dark">PAPA'Z</span>
+            </p>
+        </span>
+        <a class="btn text-bg-primary fs-5 btn-btn rounded-pill fw-lighter" aria-current="page"
+            href="https://www.facebook.com/profile.php?id=100082852586954" title="Facebook">Suivez-nous
+            <img src="/Ressources/facebook.png" alt="logo facebook" width="24em">
+        </a>
+    </nav>
 
-    <!-- Background & Text -->
+
+    <!-- header / Background & Text -->
     <main class="background">
-
         <section class="section-top w-100">
 
             <div class="container d-flex justify-content-start">
                 <img src="/Ressources/image-profil.jpeg" alt="Photo du groupe">
             </div>
-
             <div class="Info pb-2">
                 <span class="navbar-icon ">
                     <h1 class="text-warning text-center">THE <span class="text-">PAPA'Z</span>
@@ -48,7 +44,8 @@
             </div>
         </section>
 
-        <div class="text-white fw-lighter p-5 pt-1 fs-1 m-0 d-flex flex-column justify-content-start">
+
+        <section class="text-white fw-lighter p-5 pt-1 fs-1 m-0 d-flex flex-column justify-content-start">
             <p>Venez nous rejoindre et partager avec nous notre passion pour la
                 musique qui Rock !</p>
             <span> </span>
@@ -61,15 +58,20 @@
             <p>Parce que nous ne venons pas pour ne rien faire, nous n'amenons pas les chaises ! Danse et
                 remuage de
                 popotin obligatoire !</p>
-            <span> </span>
             <p>Bonne humeur et classe au rendez-vous (ben oui le dresscode "Black" ça fait classe non ?)</p>
+        </section>
+
+        <!-- Bouton "En savoir plus" -->
+
+        <div class="card-footer text-muted">
+            <a class="btn text-bg-primary rounded-pill navbar-brand text-white fw-lighter" href="about.html"
+                aria-current="page">En savoir plus
+            </a>
         </div>
-
-
 
         <!-- carousel bootstrap -->
 
-        <div id="carouselSlides" class="carousel slide" data-ride="carousel">
+        <section id="carouselSlides" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner ">
                 <div class="carousel-item active">
                     <img class="d-block p-5 w-100" src="Ressources/Carousel/ThePapazPictures.jpg" alt="First slide">
@@ -110,15 +112,9 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </section>
 
-        <!-- Bouton "En savoir plus" -->
 
-        <div class="card-footer text-muted">
-            <a class="btn text-bg-primary rounded-pill navbar-brand text-white fw-lighter" href="about.html"
-                aria-current="page">En savoir plus
-            </a>
-        </div>
     </main>
 
     <!-- Footer -->
@@ -127,24 +123,10 @@
             <p class="text m-0">Les Papa'z &copy; 2022</p>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
-<script src="http://thepapaz.io/cookiechoices.js"></script>
-
-
-
-
-
 <!-- OPTIONNEL TANT QUE NON HEBERGE SUR UN SERVEUR -->
 
 <script>document.addEventListener('DOMContentLoaded', function (event) { cookieChoices.showCookieConsentBar('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l’utilisation des cookies.', 'J’accepte', 'En savoir plus', 'http://www.thepapaz.io/mentions-legales/'); });</script>

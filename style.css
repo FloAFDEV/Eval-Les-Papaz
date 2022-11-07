@@ -29,7 +29,9 @@ body {
     background-image: src("../Ressources/black-gypsum-panel-with-copy-space.jpg");
 }
 
-
+p {
+    font-size: 0.7em;
+}
 
 .background {
     background-image: url("Ressources/close-up-microphone-concert-stage-with-beautiful-lighting.jpg");
@@ -130,12 +132,10 @@ div.text-white {
     object-fit: cover;
 }
 
-.card-footer{
-
+.card-footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    margin-bottom: 2rem
 }
